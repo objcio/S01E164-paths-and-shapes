@@ -13,6 +13,7 @@
 		83D07A8A22F2DBFD002FD9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D07A8922F2DBFD002FD9AE /* Assets.xcassets */; };
 		83D07A8D22F2DBFD002FD9AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D07A8C22F2DBFD002FD9AE /* Preview Assets.xcassets */; };
 		83D07A9022F2DBFD002FD9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D07A8E22F2DBFD002FD9AE /* LaunchScreen.storyboard */; };
+		83D07A9A22F2E37A002FD9AE /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83D07A9922F2E37A002FD9AE /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83D07A8C22F2DBFD002FD9AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83D07A8F22F2DBFD002FD9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83D07A9122F2DBFD002FD9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D07A9922F2E37A002FD9AE /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		83D07A8222F2DBFC002FD9AE /* Badge */ = {
 			isa = PBXGroup;
 			children = (
+				83D07A9922F2E37A002FD9AE /* test.jpg */,
 				83D07A8322F2DBFC002FD9AE /* AppDelegate.swift */,
 				83D07A8522F2DBFC002FD9AE /* SceneDelegate.swift */,
 				83D07A8722F2DBFC002FD9AE /* ContentView.swift */,
@@ -136,6 +139,7 @@
 				83D07A9022F2DBFD002FD9AE /* LaunchScreen.storyboard in Resources */,
 				83D07A8D22F2DBFD002FD9AE /* Preview Assets.xcassets in Resources */,
 				83D07A8A22F2DBFD002FD9AE /* Assets.xcassets in Resources */,
+				83D07A9A22F2E37A002FD9AE /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

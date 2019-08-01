@@ -8,9 +8,44 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct BadgeShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { p in
+            p.move(to: rect.origin)
+            p.addLine(to: CGPoint(x: rect.maxX, y: rect.origin.y))
+            p.addLine(to: CGPoint(x: rect.origin.x, y: rect.maxY))
+            p.closeSubpath()
+        }
+    }
+}
+
+struct PreviewBadge: View {
     var body: some View {
-        Text("Hello World")
+        ZStack {
+            BadgeShape()
+                .foregroundColor(.orange)
+            Text("Preview")
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding(.bottom, 30)
+                .rotationEffect(Angle(degrees: -45))
+        }
+    }
+}
+
+struct ContentView: View {
+    @State var size: CGFloat = 100
+    var body: some View {
+        VStack {
+            ZStack(alignment: .topLeading) {
+                Image(uiImage: UIImage(named: "test.jpg")!)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                PreviewBadge()
+                    .frame(width: size, height: size)
+            }.clipped()
+            Slider(value: $size, from: 0, through: 200)
+        }
     }
 }
 
