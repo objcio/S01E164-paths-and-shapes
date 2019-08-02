@@ -1,4 +1,4 @@
 # Swift Talk
-## SwiftUI: Asynchronous Networking
+## SwiftUI: Paths and Shapes
 
-This is the code that accompanies Swift Talk Episode 157: [SwiftUI: Asynchronous Networking](https://talk.objc.io/episodes/S01E157-asynchronous-networking-with-swiftui)
+This is the code that accompanies Swift Talk Episode 164: [SwiftUI: Paths and Shapes](https://talk.objc.io/episodes/S01-)
